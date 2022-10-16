@@ -1,6 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-etherscan");
-require("dotenv").config();
+require ("dotenv").config();
+
 
 module.exports = {
   solidity: {
@@ -16,6 +17,10 @@ module.exports = {
   networks: {
     goerli: {
       url: `${process.env.GOERLI_URL}`,
+      accounts: [`0x${process.env.PRIVATE_KEY}`],
+    },
+    ethereum: {
+      url: `${process.env.ethereum_URL}`,
       accounts: [`0x${process.env.PRIVATE_KEY}`],
     },
   },

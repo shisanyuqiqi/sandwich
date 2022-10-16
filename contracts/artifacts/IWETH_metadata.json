@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "dst",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "wad",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Sandwich.sol": "IWETH"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Sandwich.sol": {
+			"keccak256": "0x7c58a0e05618edc32177f5456b999ce4877816602ef68109991a365748de70ea",
+			"urls": [
+				"bzz-raw://3be06f82a83555621d55e5d185f6c52a4340e9f80625c71e259b37a720562856",
+				"dweb:/ipfs/QmZniw2pUVjh2Tu4NXZDNkz76AeLmezk3RHiEGxT14odoF"
+			]
+		},
+		"contracts/interface/IUniswapV2Pair.sol": {
+			"keccak256": "0x29388edf2db22085e6ab17c8e561c52771fe47816bd180f799de141dcab694dd",
+			"urls": [
+				"bzz-raw://82f78ffe6e613d42d6cc1383375b29572a14bcb2b9884d6acfeec4d25e539632",
+				"dweb:/ipfs/Qmc7ESLAzPNWwymgW9L4rPT8rWz3urVWLU7T5Qo8sZBgYp"
+			]
+		},
+		"contracts/lib/SafeMath.sol": {
+			"keccak256": "0x6b18d1094570de5a9fcc0aeb3e5e39cadc641f919f4568448c921d8b6419ab9d",
+			"urls": [
+				"bzz-raw://12b68b7e367deeaf1312973323868cdf53ddeeae116c338d940386aa3627a60a",
+				"dweb:/ipfs/QmQhcUnNKpRqAvR7ciBXAMcM9Uyq9qxkq5ypKnRLTitZRZ"
+			]
+		},
+		"contracts/lib/UniswapV2Library.sol": {
+			"keccak256": "0x10bc160e51e4c968823927fa648c5f8105a4289fff2e2e7bb3f8d4095a6a44b1",
+			"urls": [
+				"bzz-raw://e106c3924f1a302aa6e9b038fc86a24d344a3f43e22d8e06bb9f0af2251df7d8",
+				"dweb:/ipfs/QmScEkWb79otP2NuSRm6XWnetsdWhozqXNywgy5ChSQgeE"
+			]
+		}
+	},
+	"version": 1
+}
